@@ -61,7 +61,7 @@ typedef enum {
     COAP = 2,
     /** USB */
     USB = 3,
-} ExchanageMedium;
+} ExchangeMedium;
 
 /**
  * @brief Enumerates frequencies for publishing services.
@@ -99,7 +99,7 @@ typedef struct PublishInfo {
   /** Service publishing mode, which can be {@link DISCOVER_MODE_PASSIVE} or {@link DISCOVER_MODE_ACTIVE } */
     int mode;
   /** Service publishing medium */
-    ExchanageMedium medium;
+    ExchangeMedium medium;
   /** Service publishing frequency */
     ExchangeFre freq;
   /** Service publishing capabilities. For details, see {@link g_capabilityMap}. */
