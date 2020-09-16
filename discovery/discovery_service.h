@@ -47,7 +47,7 @@ extern "C" {
 #endif
 
 /**
- * @brief Enumerates media, such as Bluetooth, Wi-Fi, and USB, used for publishing services.
+ * @brief Enumerates media, such as Bluetooth, Wi-Fi and USB, used for publishing services.
  *
  * Currently, the media can only be set to coap.
  *
@@ -226,7 +226,7 @@ typedef struct IPublishCallback {
 } IPublishCallback;
 
 /**
- * @brief Enumerates device information, such as its ID, type, and name.
+ * @brief Enumerates device information, such as its indentity, type and name.
  *
  */
 typedef enum {
@@ -276,10 +276,10 @@ int PublishService(const char *moduleName, const struct PublishInfo* info, const
 int UnPublishService(const char *moduleName, int publishId);
 
 /**
- * @brief Sets common device information, such as its ID, type, and name.
+ * @brief Sets common device information, such as its indentity, type and name.
  *
  * @param devInfo Indicates the pointer to the device information array.
- * @param2 num Indicates the number of elements in the device information array.
+ * @param num Indicates the number of elements in the device information array.
  * If the value is inconsistent with the length of the device information array, the program breaks down.
  * @return Returns <b>0</b> if the operation is successful; returns a non-zero value otherwise.
  * @see PublishService
