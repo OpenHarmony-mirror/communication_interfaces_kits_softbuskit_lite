@@ -76,7 +76,7 @@ typedef enum {
     HIGH = 2,
    /** Super-high */
     SUPER_HIGH = 3,
-} ExchangeFre;
+} ExchangeFreq;
 
 /**
  * @brief Enumerates the modes in which services are published.
@@ -101,7 +101,7 @@ typedef struct PublishInfo {
   /** Service publishing medium */
     ExchangeMedium medium;
   /** Service publishing frequency */
-    ExchangeFre freq;
+    ExchangeFreq freq;
   /** Service publishing capabilities. For details, see {@link g_capabilityMap}. */
     const char *capability;
   /** Capability data for service publishing */
