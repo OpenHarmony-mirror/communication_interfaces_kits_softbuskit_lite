@@ -160,8 +160,8 @@ typedef struct {
 static const CapabilityMap g_capabilityMap[] = {
     {HICALL_CAPABILITY_BITMAP, (char *)"hicall"},
     {PROFILE_CAPABILITY_BITMAP, (char *)"profile"},
-    {HOMEVISIONPIC_CAPABILITY_BITMAP, (char *)"castPlus"},
-    {CASTPLUS_CAPABILITY_BITMAP, (char *)"homevisionPic"},
+    {CASTPLUS_CAPABILITY_BITMAP, (char *)"castPlus"},
+    {HOMEVISIONPIC_CAPABILITY_BITMAP, (char *)"homevisionPic"},
     {AA_CAPABILITY_BITMAP, (char *)"aaCapability"},
     {DVKIT_CAPABILITY_BITMAP, (char *)"dvKit"},
     {DDMP_CAPABILITY_BITMAP, (char *)"ddmpCapability"},
